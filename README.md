@@ -13,6 +13,10 @@ tags:
 
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/reinemizero/sproutbot-complete2)
 
+## Demo Video
+
+▶️ [Watch the SproutBot Demo on YouTube](https://youtu.be/48ZBeNT4w-M)
+
 # SproutBot — Agriculture QA Assistant
 
 SproutBot is a domain-specific conversational assistant fine-tuned to answer 
