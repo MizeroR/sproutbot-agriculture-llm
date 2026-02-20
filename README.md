@@ -9,6 +9,9 @@ tags:
 - agriculture
 - question-answering
 ---
+## Quick Start
+
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/reinemizero/sproutbot-complete2)
 
 # SproutBot — Agriculture QA Assistant
 
