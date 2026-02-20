@@ -171,6 +171,34 @@ are documented in the notebook.
 - **Hours used:** ~0.15 hours (3.1 minutes training + evaluation)
 - **Compute Region:** US
 
+## Example Conversations
+
+### ✅ In-Domain (Agriculture)
+
+**Q: How do I control aphids on my crops?**
+- 🤖 Base TinyLlama: *"Aphids are small insects. You can find them in gardens..."* (generic)
+- 🌾 SproutBot: *"To control aphids, spray neem oil or insecticidal soap directly 
+  on affected plants. Introduce natural predators like ladybugs. For severe 
+  infestations, use pyrethrin-based pesticides in the early morning."*
+
+**Q: What is the best fertilizer for wheat?**
+- 🤖 Base TinyLlama: *"Fertilizers help plants grow..."* (vague)
+- 🌾 SproutBot: *"Wheat grows best with nitrogen-rich fertilizers like urea or 
+  ammonium nitrate. Apply 120–150 kg/ha of nitrogen split across sowing and 
+  tillering stages for optimal yield."*
+
+**Q: What soil pH is ideal for growing maize?**
+- 🌾 SproutBot: *"Maize grows best in soil with a pH between 5.8 and 7.0. 
+  Slightly acidic to neutral soil ensures optimal nutrient availability. 
+  Add lime to raise pH or sulfur to lower it if needed."*
+
+### ⚠️ Out-of-Domain (General Knowledge)
+
+**Q: What is the capital of France?**
+- 🌾 SproutBot: *"Paris is the capital of France."* 
+- *Note: SproutBot retains general knowledge from TinyLlama pretraining 
+  but is optimized for agriculture queries.*
+
 ## Technical Specifications
 
 ### Model Architecture
